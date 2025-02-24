@@ -1,15 +1,31 @@
 import { motion } from "framer-motion";
 
-const Sobre = () => {
+
+
+
+
+const About = () => {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <h1>Bem-vindo ao meu Sobre!</h1>
+      
+
+      
+      <section className="about">
+
+          <p>
+            
+          </p>
+  
+      </section>
+
+
+
     </motion.div>
   );
 };
 
-export default Sobre;
+export default About;

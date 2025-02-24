@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Cards } from "../components/cards/Cards";
 
-const Projetos = () => {
+const projects = () => {
   const textProject = [
     {
       img_url: "https://storage.googleapis.com/atados-v3/user-uploaded/images/15f29558-ca74-4eb8-8979-99f3af8a70a9.jpg",
@@ -43,4 +43,4 @@ const Projetos = () => {
   );
 };
 
-export default Projetos;
+export default projects;

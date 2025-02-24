@@ -22,7 +22,7 @@ const Contact = () => {
       <section className="contact">
         
         <Form/>
-        
+        {/* css dentro de contact.scss */}
         <section className="background-img" style={backgroundStyle}>
 
           <div className="contact__text">

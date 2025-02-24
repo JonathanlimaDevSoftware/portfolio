@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
-import Projetos from "../pages/Projetos";
-import Sobre from "../pages/Sobre";
+import Projetos from "../pages/Project";
+import Sobre from "../pages/About";
 import Navbar from "../components/navbar/Navbar";
 import  Footer  from "../components/footer/Footer";
-import Contact from "../pages/Contato";
+import Contact from "../pages/Contact";
 
 const AppRoutes = () => {
   return (
