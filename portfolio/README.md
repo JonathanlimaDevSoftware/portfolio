@@ -19,9 +19,9 @@ Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-End apaixonado por criar
 
 ## 📱 Funcionalidades
 
-
-
-
+<p>
+   ![alt]('./src/assets/img/ilustrar projeto/home.png')
+</p>
 
 Este portfólio contém as seguintes seções:
 
@@ -86,5 +86,3 @@ Sou um desenvolvedor Front-End, sempre aprendendo novas tecnologias e praticando
 
 ---
 
-**Jonathan Lima**
-```
