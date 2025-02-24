@@ -19,7 +19,10 @@
     font-size: 1.5rem;
     color: $secondary-color;
     font-weight: bold;
+    cursor: pointer;
+    &:active{transform: scale(0.9);}
   }
+
 
   .navbar__links {
     display: flex;

@@ -12,7 +12,7 @@ interface LinkButtonProps {
 
 const BtnLink: React.FC<LinkButtonProps> = ({ href, children, icon, className = "" }) => {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" className={`btn ${className}`}>
+    <a href={href} target="_parent" rel="noopener noreferrer" className={`btn ${className}`}>
       <FontAwesomeIcon icon={icon} /> {/* Ícone passado como prop */}
       {children}
     </a>
@@ -20,3 +20,7 @@ const BtnLink: React.FC<LinkButtonProps> = ({ href, children, icon, className = 
 };
 
 export default BtnLink;
+/* 
+<FontAwesomeIcon icon={icon} /> 
+
+*/

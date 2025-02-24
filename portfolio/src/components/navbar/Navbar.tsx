@@ -1,4 +1,4 @@
-import { Link, useLocation } from "react-router-dom";
+import { href, Link, useLocation } from "react-router-dom";
 import "../../styles/components/_navbar.scss";
 import BtnMenu from "../button/BtnMenu";
 import { useState } from "react";
@@ -16,7 +16,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      <div className="logo">Jonathan Lima</div>
+      <div className="logo" onClick={() => (window.location.href = "/")}>
+        Jonathan Lima
+      </div>
+
+
       <ul className="navbar__links">
         <li>
           <Link to="/" className={isActive("/") ? "isActive" : ""}>Início</Link>

@@ -1,10 +1,15 @@
 import { motion } from "framer-motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPersonDigging } from "@fortawesome/free-solid-svg-icons"
+
+
 import Avatar from '../assets/img/profile04.jpeg';
-import DownloadButton from "../components/button/BtnFileDownlod";
 import ProfileImage from "../components/imagem/Img";
 import SocialIcons from "../components/social-icons/SocialIcons";
-import BtnLink from "../components/button/BtnLinks";
+import DownloadButton from "../components/button/BtnDownlod";
+import { Link } from "react-router-dom";
+
+
 import '../styles/components/_intro-text.scss';
 const Home = () => {
   return (
@@ -30,9 +35,8 @@ const Home = () => {
           
           <div className="div-button">
             <DownloadButton fileName={"programador-currículo"} filePath={"../assets/img/profile04.jpeg"}/>
-            <BtnLink href="/projetos" icon={faPersonDigging}>
-              Projetos
-            </BtnLink>
+
+            <Link to="/projetos" className="btn btn-link" > <FontAwesomeIcon icon={faPersonDigging} /> projetos</Link>
           </div>
 
           
