@@ -20,7 +20,8 @@ Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-End apaixonado por criar
 ## 📱 Funcionalidades
 
 <p>
-   ![alt]('./src/assets/img/ilustrar projeto/home.png')
+   ![alt](./src/assets/img/ilustrar projeto/home.png)
+
 </p>
 
 Este portfólio contém as seguintes seções:
