@@ -19,7 +19,7 @@ Bem-vindo ao meu portfólio! Sou um desenvolvedor Front-End apaixonado por criar
 
 ## 📱 Funcionalidades
 
-![Versão 0.1 do projeto portfólio](../portfolio/src/assets/img/ilustrar%20projeto/Screenshot%20from%202025-02-23%2020-42-08.png)
+
 
 
 
