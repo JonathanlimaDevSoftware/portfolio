@@ -5,13 +5,13 @@ import AppRoutes from "./routes/Routes";
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <section className="app">
-        <Navbar />
-        <AppRoutes />
-        <Footer />
-      </section>
-    </BrowserRouter>
+    <section className="app">
+        <BrowserRouter>
+          <Navbar />
+          <AppRoutes />
+          <Footer />
+      </BrowserRouter>
+    </section>
   );
 };
 

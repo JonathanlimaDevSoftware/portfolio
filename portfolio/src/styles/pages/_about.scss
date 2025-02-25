@@ -1,4 +1,16 @@
+@use '../base/variables' as *;
+
 .about{
   min-height: 80vh;
   padding: 30px 20px;
+
+  .intro-text{
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: $background-color;
+    border-radius: $border-gerais;
+    padding: 1em;
+  }
+
+
 }

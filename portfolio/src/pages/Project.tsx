@@ -5,8 +5,9 @@ const projects = () => {
   const textProject = [
     {
       img_url: "https://storage.googleapis.com/atados-v3/user-uploaded/images/15f29558-ca74-4eb8-8979-99f3af8a70a9.jpg",
+      title: "API FORM HTML 1",
       paragraph:
-        "Aqui está um CSS estilizado para a estrutura do seu card de projeto, utilizando um design moderno, responsivo e com efeitos sutis.",
+        "Aqui está um CSS estilizado para a estrutura do seu card de projeto, utilizando um design moderno.",
     },
     {
       img_url: "https://i7host.com.br/blog/wp-content/uploads/2022/04/capa-o-que-e-Front-end.jpg",
@@ -16,6 +17,7 @@ const projects = () => {
     },
     {
       img_url: "https://dkrn4sk0rn31v.cloudfront.net/uploads/2020/06/ARTIGO-ESTUDOS-400x280.png",
+      title: "API FORM HTML 3",
       paragraph:
         "Mais um projeto para ilustrar a organização e reutilização de componentes.",
     },

@@ -16,6 +16,6 @@
   .icon:hover,
   .icon:focus { 
     transform: scale(1.2);
-    color: lighten($secondary-color, 10%);
+    color: $secondary-color,;
   }
 }

@@ -1,6 +1,13 @@
 @use '../base/variables' as *;
 
+.app{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
 .intro-text {
+  
+
   p {
     margin-bottom: 20px;
     line-height: 1.6;
