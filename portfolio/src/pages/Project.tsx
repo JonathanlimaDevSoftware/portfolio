@@ -8,6 +8,7 @@ const projects = () => {
       title: "API FORM HTML 1",
       paragraph:
         "Aqui está um CSS estilizado para a estrutura do seu card de projeto, utilizando um design moderno.",
+      btn_link: "/api"
     },
     {
       img_url: "https://i7host.com.br/blog/wp-content/uploads/2022/04/capa-o-que-e-Front-end.jpg",
@@ -30,13 +31,13 @@ const projects = () => {
       transition={{ duration: 1 }}
     >
       <section className="projects">
-        
-        {textProject.map((item, index) => (
+        {textProject.map((item, index) => ( 
           <Cards
             key={index}
             img_url={item.img_url}
             title={item.title}
             paragraph={item.paragraph}
+          
           />
         ))}
 

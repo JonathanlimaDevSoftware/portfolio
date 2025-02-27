@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Projetos from "../pages/Project";
 import Sobre from "../pages/About";
 import Contact from "../pages/Contact";
+import  PageApi  from "../pages/PageApi";
 
 const AppRoutes = () => {
   return (
@@ -11,6 +12,8 @@ const AppRoutes = () => {
       <Route path="/projetos" element={<Projetos />} />
       <Route path="/sobre" element={<Sobre />} />
       <Route path="/contato" element={<Contact />} />
+      <Route path="/api" element={<PageApi />} />
+
       <Route path="*" element={<Home />} />
     </Routes>
   );

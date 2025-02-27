@@ -7,6 +7,7 @@ interface TextProps {
   alt?: string
   title?: string;
   paragraph?: string;
+  btn_link?: string
 }
 
 
@@ -24,7 +25,7 @@ export const Cards: React.FC<TextProps> = ({ img_url, title, paragraph, alt }) =
       </figcaption>
 
       <div className="btn-container">
-        <BtnLink href="#" className="btn-card" icon={faPager}>
+        <BtnLink href="" className="btn-card" icon={faPager}>
           Preview
         </BtnLink>
         <BtnLink href="#" className="btn-card" icon={faBuilding}>

@@ -1,0 +1,116 @@
+// Definição de variáveis
+$primary-color: #0a192f;
+$secondary-color: #64ffda;
+$background-color: #020c1b41;
+$background-body: linear-gradient(45deg, #020c1b, #131c27);
+$text-color: #ccd6f6;
+
+// Fontes
+$primary-font: 'Poppins', sans-serif;
+$secondary-font: 'Roboto', sans-serif;
+
+// Elementos gerais
+$border-gerais: 10px;
+
+.page-api {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: $background-body;
+  color: $text-color;
+  min-height: 100vh;
+  font-family: $primary-font;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: $secondary-color;
+    font-family: $secondary-font;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .card__item {
+    background: $primary-color;
+    border-radius: $border-gerais;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    }
+  }
+
+  .card__img {
+    display: block;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 2px solid $secondary-color;
+  }
+
+  .card__info {
+    text-align: center;
+  }
+
+  .card__name {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: $secondary-color;
+  }
+
+  .card__age,
+  .card__email,
+  .card__location,
+  .card__phone {
+    font-size: 0.9rem;
+    margin: 0.3rem 0;
+    color: lighten($text-color, 20%);
+  }
+}
+
+
+
+/* btn input connt */
+
+
+.input-cont {
+  width: 100%;
+  max-width: 300px;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-family: $primary-font;
+  color: $text-color;
+  background: $background-color;
+  border: 2px solid $secondary-color;
+  border-radius: $border-gerais;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+
+  &::placeholder {
+    color: lighten($text-color, 20%);
+    font-size: 0.9rem;
+  }
+
+  &:focus {
+    border-color: lighten($secondary-color, 10%);
+    box-shadow: 0 0 10px rgba($secondary-color, 0.5);
+  }
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}

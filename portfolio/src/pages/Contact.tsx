@@ -3,6 +3,8 @@ import Form from "../components/form/Form";
 import SocialIcons from "../components/social-icons/SocialIcons";
 import img8k from '../assets/img/img8k.jpg'; // Importando a imagem diretamente
 
+
+
 const Contact = () => {
   // Estilo para a imagem de fundo
   const backgroundStyle: React.CSSProperties = {
@@ -35,8 +37,8 @@ const Contact = () => {
           linkedinUrl="https://www.linkedin.com/in/jonathan-lima-4035b3342/"
           whatsappUrl="5511995295245"/>
         </section>
-
       </section>
+          
     </motion.div>
   );
 };
