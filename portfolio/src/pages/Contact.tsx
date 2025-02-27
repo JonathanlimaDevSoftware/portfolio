@@ -29,7 +29,11 @@ const Contact = () => {
             <p className="contact__paragraph ">Tem alguma dúvida ou gostaria de conversar? Fique à vontade para me enviar uma mensagem!</p>
           </div>
 
-          <SocialIcons githubUrl="" linkedinUrl="" whatsappUrl="" gmailUrl=""/>
+          <SocialIcons 
+          githubUrl="https://github.com/JonathanlimaDevSoftware"
+          gmailUrl="jonathan.lima.devsoftware@gmail.com?subject=Contato%20Profissional&body=Olá%20Jonathan,%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade!"
+          linkedinUrl="https://www.linkedin.com/in/jonathan-lima-4035b3342/"
+          whatsappUrl="5511995295245"/>
         </section>
 
       </section>

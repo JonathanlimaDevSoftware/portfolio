@@ -45,7 +45,7 @@ const Home = () => {
 
           
           <div className="div-button">
-            <DownloadButton fileName={"programador-currículo"} filePath={"../assets/img/profile04.jpeg"}/>
+            <DownloadButton fileName={"programador-currículo"} filePath={"../doc/"}/>
 
             <Link to="/projetos" className="btn btn-link" > <FontAwesomeIcon icon={faPersonDigging} /> projetos</Link>
           </div>
