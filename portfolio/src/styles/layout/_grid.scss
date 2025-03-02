@@ -61,6 +61,7 @@
     padding: 3rem 1rem;
     grid-template-columns: 1fr;
     gap: 40px;
+   
     grid-template-areas:
       "profile-img"
       "intro-text"
@@ -69,6 +70,7 @@
 
     .intro-text {
       text-align: center;
+      margin: 0 auto;
     }
     
     .div-button {

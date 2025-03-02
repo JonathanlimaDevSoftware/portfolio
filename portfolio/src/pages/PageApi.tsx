@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './page_api.scss';
+
 // Tipos para os dados da API
 interface Location {
   street: {

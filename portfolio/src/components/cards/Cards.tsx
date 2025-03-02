@@ -7,13 +7,16 @@ interface TextProps {
   alt?: string
   title?: string;
   paragraph?: string;
-  btn_link?: string
+  btn_preview?: () => void;
+  btn_done?: React.ReactNode
 }
 
 
 
 
-export const Cards: React.FC<TextProps> = ({ img_url, title, paragraph, alt }) => {
+
+
+export const Cards: React.FC<TextProps> = ({ img_url, title, paragraph, alt, btn_preview, btn_done}) => {
   return (
     <figure className="card">
       {/* Imagem do projeto */}
@@ -25,10 +28,10 @@ export const Cards: React.FC<TextProps> = ({ img_url, title, paragraph, alt }) =
       </figcaption>
 
       <div className="btn-container">
-        <BtnLink href="" className="btn-card" icon={faPager}>
+        <BtnLink href={btn_preview} className="btn-card" icon={faPager}>
           Preview
         </BtnLink>
-        <BtnLink href="#" className="btn-card" icon={faBuilding}>
+        <BtnLink href={btn_done} className="btn-card" icon={faBuilding}>
           Done
         </BtnLink>
       </div>
