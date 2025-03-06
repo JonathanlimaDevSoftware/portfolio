@@ -1,0 +1,72 @@
+:root{
+--main-color: #00eeff;
+--text-color: #ffffff;
+--bg-color-01: #1f242d;
+--bg-color-02: #323946;
+--color-00: #0000001a;
+/* Extra */
+--color-01: #999999;
+--color-02: #009539;
+--color-03: #7958f2;
+--color-04:☐#ceeeee;
+--color-05: #232323;
+
+
+/* detalhes border img */
+--value-default: 0.6rem ;
+
+}
+
+
+.container-current{
+  min-height: 100vh;
+  padding: 6rem 6rem 2rem;
+
+}
+
+
+.flex{
+  display: flex;
+}
+
+.home-about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.img-home-about{
+  
+  & img{
+    width: 100%;
+  }
+}
+
+.content-home-about{
+  width: 45%;
+  & h1{
+    font-weight: 700;
+    line-height: 1.3;
+    font-size: 2.7rem;
+  }
+  & h3{
+    font-weight: 700;
+    font-size: 1.6rem;
+  }
+  & p{
+    margin-top: 1.2rem;
+    text-align: justify;
+  }
+}
+
+
+.h2-services-portfolio-contact{
+  & h2{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+}
+
+
