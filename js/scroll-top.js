@@ -14,7 +14,7 @@ btn_scroll_top.addEventListener('click',()=>{
 
 window.addEventListener("scroll", () => {
   const scrollY = window.scrollY; // Distância do topo
-  console.log("Scroll vertical:", scrollY);
+  /* console.log("Scroll vertical:", scrollY); */
   if(scrollY <= 800){
     btn_scroll_top.classList.add('visible')
   }else{
