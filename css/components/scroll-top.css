@@ -1,0 +1,21 @@
+
+
+
+.scroll-top{
+  padding: 0 1.5rem;
+  font-size: 5rem;
+  color: var(--main-color);
+  background-color: var(--bg-color-01);
+  border:1px solid var(--main-color);
+  border-radius: 100%;
+  z-index: 101;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  opacity: 1;
+  transition: all .5s ease;
+}
+
+.visible{
+  opacity: 0;
+}

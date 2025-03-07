@@ -1,3 +1,6 @@
+.home{
+  margin-top: 90px;
+}
 .home-img{
   border-right: solid var(--value-default) var(--main-color);
   border-bottom: solid var(--value-default) var(--main-color);
