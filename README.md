@@ -15,11 +15,6 @@ Bem-vindo ao meu portfólio! Este repositório apresenta uma coleção de projet
    - [Link para o projeto ao vivo](URL_DO_PROJETO)
    - [Link para o código no GitHub](URL_REPOSITORIO)
 
-2. **Projeto 2**: Descrição breve do projeto e sua funcionalidade.
-   - Tecnologias usadas: HTML, CSS, JavaScript
-   - [Link para o projeto ao vivo](URL_DO_PROJETO)
-   - [Link para o código no GitHub](URL_REPOSITORIO)
-
 > **Nota**: Em breve, mais projetos serão adicionados à medida que continuo minha jornada de aprendizado!
 
 ## Sobre Mim
